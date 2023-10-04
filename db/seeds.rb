@@ -8,7 +8,7 @@
 
 50.times do |i|
   Cat.create!(
-    name: "#{i}猫"
+    name: "#{i}猫",
     age: i
   )
 end
