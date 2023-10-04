@@ -61,3 +61,4 @@ end
 gem 'bootstrap'
 gem 'kaminari'
 gem 'ransack'
+gem 'bootstrap_form'
