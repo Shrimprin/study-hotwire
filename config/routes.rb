@@ -3,7 +3,11 @@ Rails.application.routes.draw do
   resources :hedgehogs
   resources :chicks
   resources :dogs
-  resources :cats
+  resources :cats do
+    collection do
+      get 'search'
+    end
+  end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")

@@ -60,3 +60,4 @@ end
 
 gem 'bootstrap'
 gem 'kaminari'
+gem 'ransack'
