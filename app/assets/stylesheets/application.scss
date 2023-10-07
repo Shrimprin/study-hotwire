@@ -12,9 +12,9 @@
  *
  */
 
- @import 'bootstrap';
+@import "bootstrap";
 
- label.required:after {
+label.required:after {
   content:" *";
   color: red;
 }

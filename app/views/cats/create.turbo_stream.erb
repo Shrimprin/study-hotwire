@@ -1,0 +1,5 @@
+<%# `#cats`の先頭に登録されたcatを追加する %>
+<%= turbo_stream.prepend "cats", @cat %>
+
+<%# Flashを表示 %>
+<%= turbo_stream_flash %>
